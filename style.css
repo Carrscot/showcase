@@ -35,9 +35,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-style: solid;
-    border-color: black;
     height: 500px;
     width: 1500px;
     margin: 100px;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    border-radius: 30px;
+}
+
+.titleDescrip {
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+
 }
