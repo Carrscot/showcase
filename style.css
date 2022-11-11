@@ -50,13 +50,39 @@ body {
     width: 200px;
     margin: 25px;
     border-radius: 30px;
+    text-shadow: 1px 1px rgb(252, 252, 252);
 }
 
 .titleDescrip {
-    border-style: solid;
-    border-color: black;
     height: 200px;
     width: 200px;
     margin: 25px;
+    color: rgb(255, 254, 254);
+    text-shadow: 1px 1px rgb(68, 68, 49);
+    font-size: 17px;
+    text-align: center;
+}
 
+.calc {
+    background-image: linear-gradient(to bottom right, rgb(6, 200, 240), rgb(245, 245, 242))
+
+}
+
+.EAS {
+    background-image: linear-gradient(to bottom right, rgb(0, 170, 205), rgb(245, 245, 242))
+
+}
+
+.RPS {
+    background-image: linear-gradient(to bottom right, rgb(6, 140, 170), rgb(245, 245, 242))
+
+}
+
+.landing {
+    background-image: linear-gradient(to bottom right, rgb(6, 110, 135), rgb(245, 245, 242))
+
+}
+
+.recipes {
+    background-image: linear-gradient(to bottom right, rgb(6, 80, 100), rgb(245, 245, 242))
 }
