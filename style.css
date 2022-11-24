@@ -57,8 +57,10 @@ body {
 .mouseOver {
     transform:scale(1.1);
     border-color: gold;
-    box-shadow: 0 0 10px black;
-
+    box-shadow: 0 0 10px rgb(255, 228, 106);
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: 1px 1px rgb(255, 228, 106);;
 }
 
 .titleDescrip {
