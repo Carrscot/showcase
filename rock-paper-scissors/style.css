@@ -1,0 +1,40 @@
+body {
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 700px;
+    background-image: linear-gradient(to bottom right, rgb(6, 140, 170), rgb(245, 245, 242))
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px, 100px;
+}
+.restart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+}

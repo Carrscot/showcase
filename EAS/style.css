@@ -1,0 +1,48 @@
+body {
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(0, 170, 205), rgb(245, 245, 242))
+}
+
+.heading {
+    font-size: larger;
+    margin: 15px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    height: 672px;
+    width: 672px;
+    padding: 0px;
+}
+
+#options{
+    display: flex;
+    justify-content: center;
+}
+
+#bonus{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    margin: 5px;
+}
